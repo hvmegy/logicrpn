@@ -1,2 +1,2 @@
 # logicrpn
-a static page to compute truth table for logic statements
+a repository for https://hvmegy.github.io/logicrpn/ which compute truth table for logic statements.
