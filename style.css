@@ -1,0 +1,82 @@
+:root {
+        --bg: #282828;
+        --fg: #ebdbb2;
+        --accent: #83a598;
+        --button: #689d6a;
+        --button-hover: #458588;
+        --border: #3c3836;
+        --error: #fb4934;
+        --ok: #b8bb26;
+      }
+      
+      body {
+        font-family: 'JetbrainsMono Nerd Font', monospace;
+        background: var(--bg);
+        color: var(--fg);
+        padding: 40px;
+        max-width: 800px;
+        margin: auto;
+      }
+      
+      h1 {
+        text-align: center;
+        color: var(--accent);
+      }
+      
+      input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+        margin-bottom: 10px;
+        background-color: #1d2021;
+        color: var(--fg);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+      }
+      
+      button {
+        padding: 10px 20px;
+        background: var(--button);
+        border: none;
+        border-radius: 6px;
+        color: var(--fg);
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background: var(--button-hover);
+      }
+      
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      
+      th, td {
+        padding: 8px;
+        border: 1px solid var(--border);
+        text-align: center;
+      }
+      
+      th {
+        background-color: #3c3836;
+      }
+      
+      td {
+        background-color: #1d2021;
+      }
+      
+      .result {
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 20px;
+        color: var(--ok);
+      }
+      
+      .error {
+        color: var(--error);
+      }
+      
